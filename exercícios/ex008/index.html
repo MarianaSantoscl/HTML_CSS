@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. A tag CODE faz fonte espaçada, que é ótima para a escrita de códigos, já que fica mais legível.</p>
+        <pre>
+            <code>
+                num = int(input('Digite um número'))
+                if num % 2 == 0:
+                    print(f'O número{num} é PAR')
+                else:
+                    print(f'O número {num} é ÍMPAR)
+                print('Fim do programa')
+            </code>
+        </pre>
+    <p>Use a tag PRE para pré formatação de um código para ficar corretamente indentado. A tag CODE deixa as letras monoespaçadas, mas não faz quebra de linhas.</p>
+    <h2>Citações simples</h2>
+    <p>A tag Q dá o sentido semântico de citação para o texto dela, sem fazer quebra de linha.</p>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
+    <h2>Citações complestas</h2>
+    <p>Usamos a tag BLOCKQUOTE para fazer citações completas que se destacam na página. UM adicional é o uso do parâmetro CITE, onde você pode citar a URL da informação. Isso não aparecerá na interface do site, mas  a parte interna do seu site vai saber que você está referenciando aquele endereço.</p>
+    <p>Segundo Jeff Nobel, no seu livro HTML para leigos: <blockquote>blas bla bla skdnfjnefok mmdfu oksdf skdopffkjn sdksnfd</blockquote></p>
+    <h2>Abreviações</h2>
+    <p>Você pode dar um significado oculto às suas abreviações desse jeito <abbr title="Sistema Único de Saúde">SUS</abbr>.</p>
+    <h2>Ao contrário</h2>
+    <p>Uma tag irrelevante é a BDO que faz o texto ficar invertido. Pode ser usado pra ficar da direita pra esquerda ou no sentido normal E-D.</p>
+    <p><bdo dir="rtl">Esse texto tá invertido...</bdo></p>
+</body>
+</html>

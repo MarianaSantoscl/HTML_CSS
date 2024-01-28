@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            background-color: lightblue;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bolder;
+        }
+        a:visited {
+            color: lightblue;
+        }
+        a:hover {
+            color: white;
+            background-color: black;
+        }
+        a::after {
+            content: ' [Mariana Santos]';
+            font-weight: lighter;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links com pseudo-elementos</h1>
+    <ul type="square">
+        <li><a href="https://www.facebook.com/mariana.santos.507679/" target="_blank">Perfil do Facebook</a></li>
+        <li><a href="https://www.instagram.com/m.santoscl/" target="_blank">Instagram</a></li>
+        <li><a href="https://github.com/MarianaSantoscl" target="_blank">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/mariana-santoscl/" target="_blank">LinkedIn</a></li>
+    </ul>
+
+</body>
+</html>

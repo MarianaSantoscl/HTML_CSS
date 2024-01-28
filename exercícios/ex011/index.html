@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduziz áudios em HTML5 de modo simples.</p>
+    <audio src="midias/little_samba-quincas_moreira.mp3" controls></audio>
+
+    <p>Agora vamos tentar usar diferentes tipos de áudio caso algum não seja compatível com o navegador</p>
+
+    <audio preload="auto" controls>
+        <source src="midias/little_samba-quincas_moreira.mp3" type="audiompeg">
+        <source src="midias/little_samba-quincas_moreira.ogg" type="audio/ogg">
+        <source src="midias/little_samba-quincas_moreira.wav" type="audio/wav">
+        <p>Seu navegador não suporta áudio.</p>
+    </audio>
+</body>
+</html>
